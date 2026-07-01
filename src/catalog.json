@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Java 8 (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/java-8-new/",
+    "test_type": ["K"],
+    "description": "Evaluates core Java syntax, object-oriented programming, exception handling, collections, and multithreading for entry to mid-level developers.",
+    "duration_minutes": 20,
+    "remote_testing": true,
+    "adaptive_irt": false
+  },
+  {
+    "name": "Python (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/python-new/",
+    "test_type": ["K"],
+    "description": "Assesses knowledge of Python syntax, data structures, OOP, and standard library usage for software developer roles.",
+    "duration_minutes": 20,
+    "remote_testing": true,
+    "adaptive_irt": false
+  },
+  {
+    "name": "SQL (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/sql-new/",
+    "test_type": ["K"],
+    "description": "Measures ability to write and interpret SQL queries including joins, subqueries, and aggregate functions.",
+    "duration_minutes": 20,
+    "remote_testing": true,
+    "adaptive_irt": false
+  },
+  {
+    "name": "OPQ32r",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/opq32r/",
+    "test_type": ["P"],
+    "description": "Occupational Personality Questionnaire assessing 32 personality dimensions relevant to workplace behavior, including stakeholder management, teamwork, and leadership style.",
+    "duration_minutes": 25,
+    "remote_testing": true,
+    "adaptive_irt": false
+  },
+  {
+    "name": "General Ability Test (GSA)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/general-ability-short-form/",
+    "test_type": ["A"],
+    "description": "A short-form cognitive ability assessment measuring numerical, verbal, and inductive reasoning for general employability screening.",
+    "duration_minutes": 36,
+    "remote_testing": true,
+    "adaptive_irt": true
+  },
+  {
+    "name": "Verify Numerical Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-numerical-reasoning/",
+    "test_type": ["A"],
+    "description": "Measures ability to interpret numerical data, statistics, and tables to make logical business decisions.",
+    "duration_minutes": 18,
+    "remote_testing": true,
+    "adaptive_irt": true
+  },
+  {
+    "name": "Situational Judgement Test - Stakeholder Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/sjt-stakeholder-management/",
+    "test_type": ["B"],
+    "description": "Presents realistic workplace scenarios involving cross-functional stakeholders to evaluate judgement, communication, and conflict resolution.",
+    "duration_minutes": 15,
+    "remote_testing": true,
+    "adaptive_irt": false
+  },
+  {
+    "name": "JavaScript (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/javascript-new/",
+    "test_type": ["K"],
+    "description": "Tests core JavaScript concepts including closures, asynchronous programming, DOM manipulation, and ES6+ syntax.",
+    "duration_minutes": 20,
+    "remote_testing": true,
+    "adaptive_irt": false
+  }
+]

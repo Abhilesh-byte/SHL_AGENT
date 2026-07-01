@@ -19,10 +19,12 @@ def get_requirements(file_path:str)->list[str]:
         
 
 setup(
-    name = "mlproject",
+    name = "shl_agent",
     version = "0.0.1",
     author = "Abhilesh",
     author_email = "singhrathor753@gmail.com",
-    packages = find_packages(),
-    install_requires = get_requirements('requirements.txt')
+    
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
+    install_requires=open("requirements.txt").read().splitlines(),
 )
