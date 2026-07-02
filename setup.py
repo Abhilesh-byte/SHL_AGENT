@@ -1,30 +1,20 @@
-from setuptools import setup, find_packages,setup
-from typing import List
+from pathlib import Path
 
-HYPEN_E_DOT = "-e ."
-def get_requirements(file_path:str)->list[str]:
-    
-    '''
-    This function will return the list of requirements
-    '''
-    requirements = []
-    with open(file_path) as file_obj:
-        requirements = file_obj.readlines()
-        requirements =[req.replace("\n","") for req in requirements]
-        
-        if HYPEN_E_DOT in requirements:
-            requirements.remove(HYPEN_E_DOT)
-    
-    return requirements
-        
+from setuptools import find_packages, setup
+
+HYPHEN_E_DOT = "-e ."
+
+
+def get_requirements(file_path: str) -> list[str]:
+    requirements = Path(file_path).read_text().splitlines()
+    return [req for req in requirements if req and req != HYPHEN_E_DOT]
+
 
 setup(
-    name = "shl_agent",
-    version = "0.0.1",
-    author = "Abhilesh",
-    author_email = "singhrathor753@gmail.com",
-    
-    package_dir={"": "src"},
-    packages=find_packages(where="src"),
-    install_requires=open("requirements.txt").read().splitlines(),
+    name="shl_agent",
+    version="0.0.1",
+    author="Abhilesh",
+    author_email="singhrathor753@gmail.com",
+    packages=find_packages(),
+    install_requires=get_requirements("requirements.txt"),
 )
